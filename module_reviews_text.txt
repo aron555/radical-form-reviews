@@ -1,0 +1,28 @@
+<div class="uk-margin-auto">
+<div class="uk-margin tm-light">Представьтесь другим пользователям:</div>
+<form id="comments-form" name="comments-form">
+<div class="" uk-grid>
+<div class="uk-width-expand@s"><input id="comments-form-name" class="uk-input" name="name" type="text" value="" placeholder="* Имя:" /></div>
+<div class="uk-width-expand@s"><input id="comments-form-email" class="uk-input" name="email" type="text" value="" placeholder="* email:" /></div>
+</div>
+<div class="" uk-grid>
+<div class="uk-width-expand@s"><input id="comments-form-title" class="uk-input" name="city" type="text" value="" placeholder="Ваш город:" /></div>
+<div class="uk-width-expand@s"><input id="comments-form-homepage" class="uk-input" name="homepage" type="text" value="" placeholder="Ссылка на соцсеть:" /></div>
+</div>
+<div class="" uk-grid>
+<div class="uk-width-expand@s">Можете прикрепить фото:</div>
+<div class="uk-width-expand@s">
+<div class="uk-form-custom" uk-form-custom><button class="uk-button uk-button-primary tm-button-green rf-upload-button-text">Выбрать фото</button> <input id="avatar" class="rf-upload-button" name="avatar" type="file" /></div>
+<div class="rf-filenames-list"></div>
+</div>
+</div>
+<div class="uk-margin">
+<div class="tm-light">Напишите отзыв:</div>
+<textarea id="comments-form-comment" name="comment" rows="8" placeholder="* Расскажите о впечатлениях"></textarea></div>
+<div class="uk-margin tm-light">Чтобы мы были уверены, что вы не робот,<br class="uk-visible@m" /> пожалуйста, решите для нас простую задачку:</div>
+<div class="uk-margin"><img id="comments-form-captcha-image" class="captcha" alt="Защитный код" data-src="/images/captcha.svg" uk-img />
+<div class="uk-margin"><input id="comments-form-captcha" class="captcha uk-input" name="captcha" required="" type="text" value="" placeholder="* Введите ответ" /></div>
+<div id="comments-form-send" class="uk-margin"><button class="uk-button uk-button-primary rf-button-send"> Отправить </button></div>
+<div class="tm-text-black uk-text-small">Поля, отмеченные звёздочкой, <br class="uk-visible@s" />обязательны к заполнению</div>
+<input name="textreview" type="hidden" /> <input name="rfTarget" type="hidden" value="4" /></div>
+</form></div>

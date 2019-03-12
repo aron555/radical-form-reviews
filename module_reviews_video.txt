@@ -1,0 +1,24 @@
+<div class="uk-margin-auto">
+<div class="uk-margin">Добавление видеоотзыва администратором</div>
+<form class="uk-form-stacked">
+<div class="" uk-grid>
+<div class="uk-width-1-3@s">
+<div class="uk-margin"><input class="uk-input" name="name" type="text" placeholder="Ваше имя" />
+<div class="tm-error">Имя введёно не корректно</div>
+</div>
+<div class="uk-margin"><input class="uk-input" name="links" required="" type="text" placeholder="Ссылка на видео" />
+<div class="tm-error">Ссылка введёна не корректно</div>
+</div>
+</div>
+<div class="uk-width-expand@s"><textarea class="uk-textarea" name="review" rows="4" placeholder="Отзыв"></textarea>
+<div class="tm-error">Отзыв введён не корректно</div>
+</div>
+</div>
+<div class="" uk-grid>
+<div class="uk-width-1-3@s"><!--<div class="uk-form-custom" uk-form-custom>
+                                    <button class="uk-button uk-button-primary rf-upload-button-text">Видео</button>
+                                    <input class="rf-upload-button" name="video" type="file" required>
+                                </div>--></div>
+<div class="uk-width-expand@s"><button class="uk-button uk-button-primary rf-button-send"> Опубликовать отзыв </button></div>
+<input name="videoreview" type="hidden" /> <input name="rfTarget" type="hidden" value="4" /></div>
+</form></div>
